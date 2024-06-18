@@ -1,0 +1,300 @@
+.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color:darkcyan;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    color: gray;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+img {
+    width: 100%;
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.top-nav {
+    background-color: orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: white;
+}
+.top-nav i, .top-nav span {
+    vertical-align: middle;
+}
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(209, 209, 209, 0.527);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: white;
+    color: orangered;
+}
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+}
+.navbar-brand span {
+    color: orangered;
+}
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand {
+    background-color: orangered;
+    color: white;
+    border-color: brown;
+}
+.btn-brand:hover {
+    color: white;
+    background-color: orange;
+}
+.nav-item .nav-link:active,
+.nav-item .nav-link:hover {
+    color: orangered !important;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    
+}
+/*Slider*/
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.274)),url('./images/bg2.jpg');
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.274)),url('./images/background-banner.webp');
+}
+
+/*caroosel*/
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(240, 248, 255, 0.445) !important;
+    font-size: 32px !important;
+    font-size: xx-large !important;
+    font-weight: 600 !important;
+    margin-top: -30px !important;
+    color: white !important;
+
+    border-radius: 100px !important;
+}
+.owl-next  {
+    right: 0;
+}
+.owl-prev {
+    left: 0;
+}
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: rgba(255, 68, 0, 0.452) !important;
+}
+
+.info-box img {
+    width: 90px;
+    margin-right: 18px;
+}
+.info-box {
+    display: flex;
+    align-items: center;
+}
+.info-box  h5 {
+    color: rgba(0, 0, 0, 0.774);
+}
+.info-box  p {
+    color: rgb(138, 131, 128);
+}
+
+
+/*mile stome*/
+#milestone {
+    background: linear-gradient(rgba(255, 68, 0, 0.9), rgba(255, 68, 0, 0.829)),url('./images/bg2.jpg');
+}
+
+#milestone p, #milestone .display-4 {
+    color: white !important;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+#milestone p {
+    color:rgba(0, 0, 0, 0.774) !important;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+.intro h6 {
+    font-weight: 400;
+
+}
+.intro p {
+   max-width: 500px;
+   margin: auto;
+   color: black;
+}
+
+#services img {
+    width: 140px;
+}
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.099);
+    text-align: center;
+}
+#services h5 {
+    font-weight: 500;
+    margin-top: 24px;
+    margin-top: 12px;
+    color: rgba(255, 68, 0, 0.87);
+}
+#services p {
+    color: rgba(0, 0, 0, 0.753);
+}
+
+#our-work h1 {
+    color: orangered;
+    font-weight: 700;
+}
